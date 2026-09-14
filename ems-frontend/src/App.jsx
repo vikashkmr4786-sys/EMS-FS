@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    
       <HeaderComponent/ >
       <Routes>
         {/* //http://localhost:3000 */}
@@ -30,6 +31,7 @@ function App() {
       </Routes>
    
      <FooterComponent/ >
+     
      </BrowserRouter>
     </>
   )
